@@ -44,23 +44,11 @@
         src="https://www.google.com/maps/embed/v1/place?q=<?php echo $address;?>&zoom=16&key=AIzaSyCqshWD5d6QftGGQxZDvhvmrGVc3lts1qI" allowfullscreen></iframe>
           </div>
 
-<div class="social-media">
 
-
-          <div class=" col-lg-6 col-md-6 col-sm-6" style="margin-top:50px;">
-                                  <a class="twitter-timeline"  href="https://twitter.com/search?q=Earthquake%20%23earthquake" data-widget-id="752168888759046144"   data-chrome="nofooter noborders"  width="100%" height="500"><p>Tweets </p></a>
-                                  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-          </div>
-          <div class=" col-lg-6 col-md-6 col-sm-6" style="margin-top:50px;">
-                              <div class="fb-page" style="width:100%;" data-href="https://www.facebook.com/Ikwento-Natin-Yan-Sa-MMK-446853342032575/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Ikwento-Natin-Yan-Sa-MMK-446853342032575/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Ikwento-Natin-Yan-Sa-MMK-446853342032575/">Ikwento Natin Yan Sa MMK</a></blockquote></div>
-
-          </div>
-      </div>
 </div>
     </div>
     </div>
-    <div>
+    <div style="padding-bottom:20px;">
 
               <div class="grid1">
                 <div class="grid-sizer1"></div>
