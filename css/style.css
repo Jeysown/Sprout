@@ -1,0 +1,83 @@
+body{
+  padding-top: 50px;
+  font-family: "Minion Pro";
+}
+/*hr*/
+.between{
+  margin-top: 0px;
+   margin-bottom: 10px;
+  border: 0;
+  border-top: 1px solid #000;
+}
+.grid-item {
+  float: left;
+  padding: 10px 10px 10px 10px;
+background: #fff;
+box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+margin-bottom: 20px;
+
+}
+.grid-item>h4{
+  font-weight: bold;
+  text-align: center;
+  padding: 4px;
+}
+.grid-item>i>h5{
+  display: inline;
+  padding-left: 5px;
+  font-weight: bold;
+}
+i>h3{
+  display: inline;
+  padding-left: 15px;
+
+}
+
+.jumbotron{
+  text-align: center;
+  background: transparent;
+}
+a{
+      color: #333;
+}
+a:hover{
+  color:#000;
+}
+/*Images*/
+.grid1 {
+
+}
+
+.grid1:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+.grid-sizer1,
+.grid-item1 {
+  width: 33.333%;
+}
+
+.grid-item1 {
+  float: left;
+  padding: 6px 8px 10px 8px; /*size of the frame*/
+/*give the frame's background colour a gradient*/
+background: #eee6d8; /*fallback colour for browsers that don't support gradients*/
+background: -webkit-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+background: -moz-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+background: -o-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+background: -ms-linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+background: linear-gradient(top, #ede1c9, #fef8e2 20%, #f2ebde 60%);
+/*give the Polaroids a small drop shadow*/
+-webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+-moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+}
+
+.grid-item1 img {
+  display: block;
+  width: 100%;
+
+}
