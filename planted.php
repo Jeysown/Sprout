@@ -21,7 +21,12 @@
       <div class="row">
 
 <?php include 'report_access.php'; ?>
-<h2 class="sub-header">Reports</h2>
+<div style="text-align:center">
+  <h1>Planted Trees</h1>
+<p class="bilang">1,198,199</p>
+
+</div>
+
 <div class="panel panel-primary filterable">
     <div class="panel-heading" style="padding:25px;">
 
@@ -68,22 +73,7 @@
             </div>
 
 <br><br>
-<div >
 
-<div class="">
-
-  <div class="col-md-6 col-sm-12">
-      <div id="donut-example" style="height: 250px;"></div>
-  </div>
-  <div class="col-md-6 col-sm-12" style="padding-bottom:50px;z-index:1;">
-      <div id="bar-example" style="height: 250px;"></div>
-  </div>
-
-</div>
-  <div class="col-md-12 col-sm-12" style="padding-bottom:50px;z-index:1;">
-      <div id="line-example" style="height: 250px;"></div>
-  </div>
-</div>
 </div>
     </div>
 <?php include 'footer.php'; ?>

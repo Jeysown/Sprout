@@ -1,4 +1,9 @@
+* {
+    margin: 0;
+}
+html,body,#page, header { height:100%;}
 body{
+  padding:0;margin:0;
   padding-top: 100px;
   font-family: "Minion Pro";
   background-color: #C8E6c9;
@@ -20,14 +25,27 @@ margin-bottom: 20px;
 
 }
 .footer {
-  position: absolute;
   width: 100%;
 }
 .footer1{
   height: 150px;
   background-color: #212121;
   color: #4CAf50;
-  
+
+}
+/* General sizing */
+ul.dropdown-lr {
+  width: 300px;
+}
+
+/* mobile fix */
+@media (max-width: 768px) {
+	.dropdown-lr h3 {
+		color: #eee;
+	}
+	.dropdown-lr label {
+		color: #eee;
+	}
 }
 
 .footer2 {
@@ -148,6 +166,15 @@ margin-bottom: 20px;
 .panel-primary{
       border-color: #eeeeee;
 }
-
+.form-control{
+  margin-bottom: 10px;
+}
 .morris-hover{position:absolute;z-index:1000}.morris-hover.morris-default-style{border-radius:10px;padding:6px;color:#000;background:rgba(255,255,255,0.8);border:solid 2px rgba(230,230,230,0.8);font-family:sans-serif;font-size:12px;text-align:center}.morris-hover.morris-default-style .morris-hover-row-label{font-weight:bold;margin:0.25em 0}
 .morris-hover.morris-default-style .morris-hover-point{white-space:nowrap;margin:0.1em 0}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #388e3c;
+}
+.bilang{
+  font-size: 100px;
+}

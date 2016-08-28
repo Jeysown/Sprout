@@ -6,6 +6,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
      <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
      <link rel="stylesheet" href="fonts/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+     <link href="http://cdn.phpoll.com/css/animate.css" rel="stylesheet">
   </head>
   <body style="padding-top:0;">
     <div id="fb-root"></div>
@@ -30,18 +31,18 @@
               <hr class="featurette-divider" style="margin-top:20px;">
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6">
-          <i class="fa fa-map-marker" aria-hidden="true" style="font-size:25px;padding-bottom:15px;"><h3>&nbsp;&nbsp; 238B Bacood St. Sta. Mesa, Manila</h3></i><br>
-          <i class="fa fa-calendar-o" aria-hidden="true" style="font-size:25px;padding-bottom:15px;"><h3>August 25, 2016</h3></i><br>
-          <i class="fa fa-clock-o" aria-hidden="true" style="font-size:25px;padding-bottom:15px;"><h3>8:00 AM-12:00 AM</h3></i><br>
-          <i class="fa fa-users" aria-hidden="true" style="font-size:25px;padding-bottom:15px;"><h3>DSC/ICONS</h3></i><br>
-          <i class="fa fa fa-envelope" aria-hidden="true" style="font-size:25px;padding-bottom:15px;"><h3><a href="#">jeysownlopez@gmail.com</a></h3></i>
-          <i class="fa fa-facebook-square" aria-hidden="true" style="font-size:25px;padding-bottom:15px;"><h3><a href="#">www.facebook.com/jeysown</a></h3></i>
-          <i class="fa fa fa-twitter-square" aria-hidden="true" style="font-size:25px;padding-bottom:15px;"><h3><a href="#">www.twitter.com/jeysown</a></h3></i><br>
-          <i class="fa fa fa-phone-square" aria-hidden="true" style="font-size:25px;padding-bottom:15px;"><h3>09059242742</h3></i>
+          <i class="fa fa-map-marker" aria-hidden="true" style="font-size:25px;padding-bottom:15px;"><h3>&nbsp;&nbsp; UPLB Campus, Los Baños, Laguna</h3></i><br>
+          <i class="fa fa-calendar-o" aria-hidden="true" style="font-size:25px;padding-bottom:15px;"><h3>September 25, 2016</h3></i><br>
+          <i class="fa fa-clock-o" aria-hidden="true" style="font-size:25px;padding-bottom:15px;"><h3>4:30 AM-7:00 AM</h3></i><br>
+          <i class="fa fa-users" aria-hidden="true" style="font-size:25px;padding-bottom:15px;"><h3>SSG</h3></i><br>
+          <i class="fa fa fa-envelope" aria-hidden="true" style="font-size:25px;padding-bottom:15px;"><h3><a href="#">usc.uplb@gmail.com</a></h3></i>
+          <i class="fa fa-facebook-square" aria-hidden="true" style="font-size:25px;padding-bottom:15px;"><h3><a href="#">www.facebook.com/UPLB.fb</a></h3></i>
+          <i class="fa fa fa-twitter-square" aria-hidden="true" style="font-size:25px;padding-bottom:15px;"><h3><a href="#">www.twitter.com/uplbofficial</a></h3></i><br>
+          <i class="fa fa fa-phone-square" aria-hidden="true" style="font-size:25px;padding-bottom:15px;"><h3>+63 (049) 536-3604</h3></i>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6">
         <iframe width="100%" height="400" frameborder="0" style="border:0"
-        src="https://www.google.com/maps/embed/v1/place?q=<?php echo $address;?>&zoom=16&key=AIzaSyCqshWD5d6QftGGQxZDvhvmrGVc3lts1qI" allowfullscreen></iframe>
+        src="https://www.google.com/maps/embed/v1/place?q=UPLB&zoom=16&key=AIzaSyCqshWD5d6QftGGQxZDvhvmrGVc3lts1qI" allowfullscreen></iframe>
           </div>
 
 
