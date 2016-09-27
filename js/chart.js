@@ -4,11 +4,12 @@ $.getScript('http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js'
 $.getScript('http://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.0/morris.min.js',function(){
 
 var valueSafe = safeArray.length;
-
 var valueDanger = dangerArray.length;
+var valueWarning = warningArray.length;
 
- var totalSafe= (valueSafe/(valueDanger+valueSafe))*100;
-var totalDanger= (valueDanger/(valueDanger+valueSafe))*100;
+ var totalSafe= (valueSafe/(valueDanger+valueSafe+valueWarning))*100;
+ var totalWarning= (valueWarning/(valueDanger+valueSafe+valueWarning))*100;
+var totalDanger= (valueDanger/(valueDanger+valueSafe+valueWarning))*100;
       Morris.Donut({
         element: 'donut-example',
         colors: [
@@ -18,7 +19,7 @@ var totalDanger= (valueDanger/(valueDanger+valueSafe))*100;
         data: [
          {label: "Safe", value: totalSafe},
          {label: "Danger", value: totalDanger},
-          {label: "Warning", value: totalDanger}
+          {label: "Warning", value: totalWarning}
        ],
         formatter: function (y) {
           return y + "%";
@@ -29,10 +30,10 @@ var totalDanger= (valueDanger/(valueDanger+valueSafe))*100;
       Morris.Bar({
          element: 'bar-example',
          data: [
-            {y: 'Day', a: valueSafe,  b: valueDanger,c: valueDanger},
-            {y: 'Week', a: valueSafe,  b: valueDanger,c: valueDanger},
-            {y: 'Month', a: valueSafe,  b: valueDanger,c: valueDanger},
-            {y: 'Year', a: valueSafe,  b: valueDanger,c: valueDanger}
+            {y: 'Day', a: valueSafe,  b: valueWarning,c: valueDanger},
+            {y: 'Week', a: valueSafe,  b: valueWarning,c: valueDanger},
+            {y: 'Month', a: valueSafe,  b: valueWarning,c: valueDanger},
+            {y: 'Year', a: valueSafe,  b: valueWarning,c: valueDanger}
          ],
          xkey: 'y',
          ykeys: ['a', 'b','c'],
@@ -52,13 +53,10 @@ var totalDanger= (valueDanger/(valueDanger+valueSafe))*100;
       Morris.Line({
   element: 'line-example',
   data: [
-    { y: '2006', a: 60,b: 100,c: 70},
-    { y: '2007', a: 75,b: 60,c: 30},
-    { y: '2008', a: 50,b: 100,c: 20},
-    { y: '2009', a: 75,b: 30,c: 100},
-    { y: '2010', a: 50 ,b: 100,c: 100},
-    { y: '2011', a: 75 ,b: 100,c: 100},
-    { y: '2012', a: 10,b: 30,c: 100}
+
+    { y: '2012', a: 50,b: 30,c: 20},
+    { y: '2013', a: 50,b: 10,c: 40},
+      { y: '2013', a: 30,b: 60,c: 10}
   ],
   xkey: 'y',
   ykeys: ['a','b','c'],

@@ -42,6 +42,7 @@
                             <th><input type="text" class="form-control" placeholder="Time" disabled></th>
                             <th><input type="text" class="form-control" placeholder="Latitude" disabled></th>
                             <th><input type="text" class="form-control" placeholder="Longtitude" disabled></th>
+                              <th><input type="text" class="form-control" placeholder="Message" disabled></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -55,7 +56,7 @@
                 for ($i=0; $i < count($all) ; $i++) {
                   $output .="<tr>";
 
-                for ($j=0; $j < 5 ; $j++) {
+                for ($j=0; $j < 6 ; $j++) {
                 $output .= "<td>" .$all[$i][$j]. "</td>";
                 }
                       $output .= "</tr>";

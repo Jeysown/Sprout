@@ -33,8 +33,7 @@
 
     var safeArray=<?php echo json_encode( $safe ) ?>;
 		var dangerArray= <?php echo json_encode( $danger ) ?>;
-
-
+	var warningArray= <?php echo json_encode( $warning ) ?>;
  </script>
 <script src="js/maps-reports.js" charset="utf-8"></script>
 <script src="js/filter.js" charset="utf-8"></script>
